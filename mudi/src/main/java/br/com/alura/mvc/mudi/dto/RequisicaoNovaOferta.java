@@ -16,6 +16,8 @@ public class RequisicaoNovaOferta {
 	@NotNull
 	@Pattern(regexp = "^\\d+(\\.\\d+{2})?$")
 	private String valor;
+	
+	@NotNull
 	@Pattern(regexp = "^\\d{2}/\\d{2}/\\d{4}$")
 	private String dataDaEntrega;
 	private String comentario;
